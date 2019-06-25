@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        #container{
+            width: 70%;
+            margin: auto;
+        }
+        #logo{
+            float: left;
+            border: 1px solid green;
+        }
+        h1{
+            float: right;
+            border: 1px solid red;
+            width: 6em;
+            margin:0em;
+        }
+        header{
+            overflow:hidden;
+        }
+        nav{
+            border: 1px solid yellow;
+            margin-top: 9em;
+            background: rgb(105, 212, 105)
+        }
+        ul{
+            list-style: none;
+        }
+        li{
+            display: inline-block
+        }
+        a{
+            text-decoration: none;
+        }
+        #primerli{
+            border-right:2px dashed gray;
+            padding-right: 0.5em
+
+        }
+        main{
+            float: left;
+            margin-left: 7em
+            
+        }
+        aside{
+            float: right;
+            margin-right: 7em;
+        }
+           
+          
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <picture id="logo">
+                <img src="Imagenes/logo.jpg" alt=""width="100px" height="100px">
+            </picture>
+            <h1>American heart Asociation</h1>
+            <nav>
+                <ul>
+                    <li id="primerli"><a href="">Enlace 1</a></li>
+                    <li><a href="">Enlace 2</a></li>
+
+                </ul>
+            </nav>
+
+
+        </header>
+        <main>
+            <form action="#">
+             <p>
+                 <label for="nombre">Name</label>
+                <input type="text" name="nombre" id="nombre">
+             </p>
+
+            <p>
+                 <label for="nombre">Email Address</label>
+                 <input type="email" name="nombre" id="nombre">
+             </p>
+
+             <p>
+                 <label for="">Comments</label>
+                <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+            </p>
+             <p>
+                 <input type="submit" value="submit">
+             </p>
+            </form>
+        </main>
+        <aside>
+
+        <picture id="foto">
+            <img src="Imagenes/perfil.png" alt="" width="200px" height="200px">
+        </picture>
+        <p>
+            Description of Qualifications os client
+        </p>
+    </aside>
+    </div>
+    
+</body>
+</html>
